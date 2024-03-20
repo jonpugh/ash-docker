@@ -1,5 +1,5 @@
 {
-    "name": "ash/docker",
+    "name": "jonpugh/ash-docker",
     "description": "Docker commands for ash.",
     "license": "MIT",
     "authors": [
