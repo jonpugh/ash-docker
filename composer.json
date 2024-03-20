@@ -1,0 +1,36 @@
+{
+    "name": "ash/docker",
+    "description": "Docker commands for ash.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jon Pugh",
+            "email": "jon@thinkdrop.net"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Ash\\Docker": "src"
+        }
+    },
+    "require": {
+        "php": ">=8"
+    },
+    "scripts": {
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "platform": {
+            "php": "8.0.24"
+        },
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    }
+}
